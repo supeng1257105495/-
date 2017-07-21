@@ -1,0 +1,76 @@
+.iw_poi_title {
+  color: #CC5522;
+  font-size: 14px;
+  font-weight: bold;
+  overflow: hidden;
+  padding-right: 13px;
+  white-space: nowrap;
+}
+.iw_poi_content {
+  font: 12px arial, sans-serif;
+  overflow: visible;
+  padding-top: 4px;
+  white-space: -moz-pre-wrap;
+  word-wrap: break-word;
+}
+.h-contant {
+  width: 620px!important;
+  background: #fff;
+  position: absolute;
+  left: 50%;
+  top: 140px;
+}
+.h-contant .row {
+  margin: auto -30px;
+}
+.h-contant .row .h-head {
+  box-sizing: border-box;
+  padding: 0 20px;
+  height: 80px;
+  background-color: #313131;
+}
+.h-contant .row .h-head .h2 {
+  line-height: 80px;
+  color: #fff;
+}
+.h-contant .row .h-head a {
+  width: 142px;
+  height: 34px;
+  text-align: center;
+  line-height: 34px;
+  border-radius: 15px;
+  display: inline-block;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  font-size: 18px;
+  margin-left: 124px;
+}
+.h-contant .row .h-head a .fa {
+  margin-right: 6px;
+}
+.h-contant .row .h-cinfo {
+  box-sizing: border-box;
+  padding: 20px 30px;
+  margin-bottom: 90px;
+}
+.h-contant .row .h-cinfo p {
+  margin-bottom: 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  font-size: 16px;
+  color: #666;
+}
+.h-contant .row .h-cinfo .fa {
+  font-size: 20px;
+  float: left;
+}
+.h-contant .row .h-cinfo .info-de {
+  display: inline-block;
+  width: 80px;
+  margin-left: 20px;
+  text-align: justify;
+  text-align-last: justify;
+}

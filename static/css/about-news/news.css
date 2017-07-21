@@ -1,0 +1,153 @@
+main {
+  background: #f3f3f3;
+  overflow: hidden;
+}
+main .ne-head {
+  width: 100%;
+  height: 234px;
+  background: url("../../img/images/news_banner.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  overflow: hidden;
+  position: relative;
+}
+main .ne-head h3 {
+  font-size: 40px;
+  color: white;
+  position: absolute;
+  top: 110px;
+  -webkit-animation: drop .5s;
+          animation: drop .5s;
+}
+main .ne-lie1 {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  overflow: hidden;
+  padding: 0;
+}
+
+main .ne-lie1 .ne-in-1 {
+  width: 1200px;
+  height: 225px;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+main .ne-lie1 .ne-in-1 .ne-tu-1 {
+  display: inline-block;
+  width: 300px;
+  height: 225px;
+  float: left;
+  overflow: hidden;
+}
+main .ne-lie1 .ne-in-1 .ne-r-1 {
+  display: inline-block;
+  width: 898px;
+  height: 230px;
+  background: #fff;
+  padding: 30px 45px;
+  float: left;
+}
+main .ne-lie1 .ne-in-1 .ne-r-1 h2 {
+  font-size: 18px;
+  margin-top: 0;
+}
+main .ne-lie1 .ne-in-1 .ne-r-1 h4 {
+  margin-bottom: 26px;
+  font-size: 12px;
+  color: #999;
+}
+main .ne-lie1 .ne-in-1 .ne-r-1 p {
+  color: #666;
+}
+main .ne-lie1 .ne-in-1 .ne-r-1 span {
+  float: right;
+  width: 133px;
+  height: 33px;
+  border: 1px solid #e5e5e5;
+  color: #666;
+  text-align: center;
+  line-height: 30px;
+}
+
+main .ne-na {
+  width: 1200px;
+  height: 60px;
+  margin: 0 auto;
+  background: white;
+  margin-bottom: 25px;
+}
+main .ne-nav {
+  float: right;
+  overflow: hidden;
+  margin-top: 16px;
+}
+main .ne-nav li {
+  float: left;
+  font-size: 14px;
+  height: 28px;
+  line-height: 28px;
+  border: 1px solid #c0c0c0;
+  padding: 0 10px;
+  margin-right: 6px;
+}
+main .ne-p {
+  position: relative;
+  top: 18px;
+  left: 12px;
+  font-size: 14px;
+  display: inline-block;
+}
+main .ne-img {
+  -webkit-transition: .7s;
+          transition: .7s;
+}
+main .ne-in-1:hover .ne-mo {
+  background: #000;
+  color: white;
+}
+main .ne-in-1:hover{
+  box-shadow: 5px 5px 5px #bdbdbd;
+}
+main .ne-in-1:hover .ne-img {
+  -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+          transform: scale(1.2);
+}
+@-webkit-keyframes drop {
+  0% {
+    top: 220px;
+  }
+  100% {
+    top: 110px;
+  }
+}
+@keyframes drop {
+  0% {
+    top: 220px;
+  }
+  100% {
+    top: 110px;
+  }
+}
+.navi {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid #e3e3e3;
+}
+.navi1 {
+  width: 545px;
+  height: 60px;
+  margin-left: 56px;
+  margin-right: 40px;
+}
+.navi2 {
+  width: 89px;
+  height: 60px;
+  float: left;
+  margin-right: 20px;
+  color: #666;
+  text-align: center;
+  line-height: 60px;
+}
+/*# sourceMappingURL=news.css.map */

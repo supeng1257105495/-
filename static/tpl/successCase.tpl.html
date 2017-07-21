@@ -1,0 +1,438 @@
+<main ng-controller="successCasectr">
+
+        <div class="su-top">
+            <div class="su-tab1" ng-if="activeIndex==0">
+                <h3  data-scroll-reveal="enter from the bottom">成功案例</h3>
+                <div class="su-line1"  data-scroll-reveal="enter from the bottom after 0.3s"></div>
+                <h4  data-scroll-reveal="enter from the bottom after 0.5s">Successful cases</h4>
+                <div class="su-btn1"  data-scroll-reveal="enter from the bottom after 0.7s">马上查询</div>
+            </div>
+
+            <div class="su-tab2" ng-if="activeIndex==1">
+                <h3 >企业</h3>
+                <div class="su-line2"  ></div>
+                <h4 >Successful cases</h4>
+                <div class="su-btn2" >马上查询</div>
+            </div>
+
+            <div class="su-tab3" ng-if="activeIndex==2">
+                <h3 >行业</h3>
+                <div class="su-line3" ></div>
+                <h4 >Successful cases</h4>
+                <div class="su-btn3" >马上查询</div>
+            </div>
+        </div>
+
+        <div class="su-nei">
+            <h2>成功案例</h2>
+            <ul class="list-inline"  data-scroll-reveal="enter from the right after 0.4s">
+                <li class="su-li1 su-li"
+                    ng-class="{'active':activeIndex==0}"
+                    ng-click="changeIndex(0)">ALL</li>
+                <li class="su-li2  su-li"
+                    ng-class="{'active':activeIndex==1}"
+                    ng-click="changeIndex(1)">企业</li>
+                <li class="su-li3  su-li"
+                    ng-class="{'active':activeIndex==2}"
+                    ng-click="changeIndex(2)">行业</li>
+            </ul>
+            <div class="su-li1-1" ng-if="activeIndex==0">
+
+                <div class="su-a-1 su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-a-1-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>BAOSTEEL</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-a-2 su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-a-2-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>VOVARTIS</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-a-3 su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-a-3-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>燕园财税</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-b-1 su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-b-1-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>北京现代</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-b-2 su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-b-2-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>国家开发投资公司</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-b-3 su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-b-3-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>国家开发银行</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+
+                <div class="su-c-1 su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-c-1-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>华润</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-c-2 su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-c-2-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>竞网</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-c-3 su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-c-3-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>屈臣氏</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+
+                <div class="su-d-1 su-show su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-d-1-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>上海通用汽车</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-d-2 su-show su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-d-2-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>顺丰速运</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-d-3 su-show su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-d-3-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>皖新传媒</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+
+                <div class="su-e-1 su-show su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-e-1-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>云南白药</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-e-2 su-show su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-e-2-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>长安汽车</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-e-3 su-show su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-e-3-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>中国东方航空</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-f-1 su-show su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-f-1-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>中国工商银行</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-click">点击加载案例</div>
+            </div>
+
+            <div class="su-li2-1" ng-if="activeIndex==1">
+
+                <div class="su-b-3 su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-b-3-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>国家开发银行</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+
+                <div class="su-c-1 su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-c-1-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>华润</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-c-2 su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-c-2-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>竞网</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-c-3 su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-c-3-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>屈臣氏</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+
+                <div class="su-d-1 su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-d-1-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>上海通用汽车</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-d-2 su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-d-2-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>顺丰速运</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-d-3 su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-d-3-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>皖新传媒</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+
+                <div class="su-e-1 su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-e-1-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>云南白药</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-e-2 su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-e-2-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>长安汽车</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-e-3 su-show2 su-m" >
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-e-3-up "></div>
+                    <div class="su-a-1-do">
+                        <h2>中国东方航空</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-f-1 su-show2 su-m" >
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-f-1-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>中国工商银行</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+                <!--<div class="su-click2" id="su-click2">点击加载案例2</div>-->
+            </div>
+
+            <div class="su-li3-1" ng-if="activeIndex==2">
+                <div class="su-a-1 su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-a-1-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>BAOSTEEL</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-a-2 su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-a-2-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>NOVARTIS</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-a-3 su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-a-3-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>燕园财税</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-b-1 su-m" >
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-b-1-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>北京现代</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+
+                <div class="su-b-2 su-m">
+                    <div class="su-a-1-u">
+                        <div class="su-u-i">查看案例</div>
+                    </div>
+                    <div class="su-b-2-up"></div>
+                    <div class="su-a-1-do">
+                        <h2>国家开发投资公司</h2>
+                        <p>平台服务 / 数据分析</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <script src="../js/scrollReveal/scrollReveal.js"></script>
+    <script>
+        window.scrollReveal = new scrollReveal({reset: true, move: '50px'});
+        $(document).ready(function(){
+            //点击展开折叠内容
+            $(".su-show").hide();
+            $(".su-click").click(function(){
+                $(this).toggleClass("active");
+                $(".su-show").slideToggle("slow");
+                $(".su-click").hide();
+                return false;
+            });
+
+            $("#su-show2").hide();
+            $("#su-click2").click(function(){
+                $(this).toggleClass("active");
+                $("#su-show2").slideToggle("slow");
+                $("#su-click2").hide();
+
+                return false;
+            });
+
+            //选中的背景变色
+            $('.su-li:eq(0)').css({"background":"#000","color":"#fff"});
+            $(".su-li").click(function () {
+                $(".su-li").css({"background":"#f5f5f5","color":"#000"});
+                $(this).css({"background":"#000","color":"#fff"});
+            });
+        });
+    </script>
+</main>

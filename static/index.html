@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+<head lang="en" >
+    <meta charset="UTF-8">
+    <title>通铭教育</title>
+    <!-- 公共模块-->
+    <link rel="stylesheet" href="css/reset.css"/>
+    <link rel="stylesheet" href="components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="components/swiper/dist/css/swiper.css"/>
+    <link rel="stylesheet" href="components/swiper/dist/css/animate.min.css"/>
+    <link rel="stylesheet" href="components/font-awesome/css/font-awesome.css"/>
+    <!-- 自定义模块-->
+    <link rel="stylesheet" href="css/index/index.css"/>
+    <link rel="stylesheet" href="css/footer/footer.css"/>
+    <link rel="stylesheet" href="css/header.css"/>
+    <link rel="stylesheet" href="css/solution/solution.css"/>
+    <link rel="stylesheet" href="css/platform/platform.css"/>
+    <link rel="stylesheet" href="css/operator/operator.css"/>
+    <link rel="stylesheet" href="css/successCase/successCase.css"/>
+    <link rel="stylesheet" href="css/about/about.css"/>
+    <link rel="stylesheet" href="css/develope/developes.css"/>
+    <link rel="stylesheet" href="css/about-news/news.css"/>
+    <link rel="stylesheet" href="css/join/join.css"/>
+    <link rel="stylesheet" href="css/contactus/contactus.css"/>
+</head>
+<body  style="background: #f5f5f5">
+<!--//头部-->
+<div  style="position: absolute;z-index: 10;width: 100%">
+    <header ng-controller="headerctr">
+
+        <div class="nav container">
+            <div class="logo" data-scroll-reveal="move from left over 1s">
+                <a></a>
+                <div>
+                    <p>企业在线学习解决方案</p>
+                    <p>优质服务商</p>
+                </div>
+            </div>
+            <ul class="navbar topNav">
+                <li class="active other" ui-sref="index"><a href="">首页</a></li>
+                <li id="solve" ui-sref="solution"><a href="#" >解决方案</a></li>
+                <li class="other" ui-sref="platfrom"><a href="#">平台服务</a></li>
+                <li class="other" ui-sref="operator"><a href="#">运营服务</a></li>
+                <li id="succ-case" ui-sref="successCase"><a href="#">成功案例</a></li>
+                <li id="about-us" ui-sref="about"><a href="#">关于我们</a></li>
+            </ul>
+            <div class="free" data-scroll-reveal="move from right over 1s">
+                <span class="fa fa-mobile-phone" style="font-size: 30px;margin-top: 8px"></span>
+                <img src="../img/images/none_barcode.jpg" alt="barcode">
+                <a href="javascript:;">免费试用</a>
+            </div>
+        </div>
+        <div class="down-ease">
+            <div class="solve-content">
+                <div class="down-li">
+                    <ul>
+                        <li>企业解决方案</li>
+                        <li>行业解决方案</li>
+                        <li>直播解决方案</li>
+                        <li>10大应用场景</li>
+                    </ul>
+                </div>
+                <div class="dla-a">
+                    <div class="sol-content">
+                        <h2>通铭教育企业在线学习解决方案</h2>
+                        <p>哪些企业最适合在线学习？为什么企业在线学习势在必行？</p>
+                        <a href="">运营服务</a>
+                        <a href="">平台服务</a>
+                        <a href="">内容服务</a>
+                        <a href="">人才服务</a>
+                    </div>
+                    <div class="isol-content">
+                        <ul class="row">
+                            <li class="col-md-4 on">
+                                <a href="">
+                                    <h4>连锁加盟行业</h4>
+                                    <p>连锁经营机构在线学习解决方案</p>
+                                </a>
+                            </li>
+                            <li class="col-md-4 on">
+                                <a href="">
+                                    <h4>教育培训行业</h4>
+                                    <p>互联网的时代已经到来</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="f-live">
+                        <span class="h2">企业直播间 — 企业直播时代已经到来</span>
+                        <p>直播平台市场规模10,000,000,000+  平台直播用户规模2,000,000,000+</p>
+                        <a href="">直播培训</a><a href="">直播营销</a><a href="">直播会议</a>
+                    </div>
+                    <div class="t-li container-fluid">
+                        <ul class="row">
+                            <li class="col-md-4 on">
+                                <a href="">
+                                    <h4>新员工O2O培训</h4>
+                                    <p>集中培训＋线上学习＋翻转课堂，时间变短／效果变好</p>
+                                </a>
+                            </li>
+                            <li class="col-md-4 on">
+                                <a href="">
+                                    <h4>产品上市培训新招</h4>
+                                    <p>微课学习＋直播答疑＋销售pk，学习／销售两不误</p>
+                                </a>
+                            </li>
+                            <li class="col-md-4 on">
+                                <a href="">
+                                    <h4>岗位技能O2O学习</h4>
+                                    <p>线上学习＋线下实操，翻转式学习效果好</p>
+                                </a>
+                            </li>
+                            <li class="col-md-4 on">
+                                <a href="">
+                                    <h4>校园招聘微课传播</h4>
+                                    <p>众创微课＋多渠道传播＋直投简历，效率与效果双丰收</p>
+                                </a>
+                            </li>
+                            <li class="col-md-4 on">
+                                <a href="">
+                                    <h4>销售成交so easy</h4>
+                                    <p>基础话术＋视频营销，人人都能成为Top sales</p>
+                                </a>
+                            </li>
+                            <li class="col-md-4 on">
+                                <a href="">
+                                    <h4>知识考核游戏通关</h4>
+                                    <p>知识萃取＋试题设计＋微课通关，让制度学习不再枯燥</p>
+                                </a>
+                            </li>
+                            <li class="col-md-4 on">
+                                <a href="">
+                                    <h4>客户教育新趋势</h4>
+                                    <p>内容优化＋直播课堂＋微课学习，让教育成为营销的入口</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="suc-case">
+                <ul class="down-li">
+                    <li><a href="">企业</a></li>
+                    <li><a href="">行业</a></li>
+                </ul>
+            </div>
+            <div class="about-content">
+                <!--关于我们移动上去显示内容-->
+                <div class="down-li">
+                    <ul>
+                        <li>关于通铭</li>
+                        <li>发展大事件</li>
+                        <li>新闻中心</li>
+                        <li>加入我们</li>
+                        <li>联系我们</li>
+                    </ul>
+                </div>
+                <div class="dla-a">
+                    <section class="dla-factory">
+                        <span class="factory-title">湖南竞网通铭教育科技有限公司 <span class="set">成立于：</span><span class="num">2001</span><span class="year">年</span></span>
+                        <p class="factory-summary">北京通铭教育科技股份有限公司（原北京通铭教育科技有限公司，简称：通铭教育）成立于2001年，十五年来始终秉承专业+专注，在高端企业e-Learning建设领域已有近百家成功经验，典型客户：中国石化、中国移动、中国联通、中国工商银行、中国人寿、中国太平保险、宝钢集团、中国外运、中国东方航空等诸多各自行业内的标杆企业。</p>
+                        <ul class="factory-value">
+                            <li>
+                                <span class="h3">公司使命</span>
+                                <div class="line"></div>
+                                <p>以创新的技术，让企慕云平台服务于中国的企业和行业</p>
+                            </li>
+                            <li>
+                                <span class="h3">公司愿景</span>
+                                <div class="line"></div>
+                                <p>成为中国最优秀的企业在线教育解决方案服务商</p>
+                            </li>
+                            <li>
+                                <span class="h3">核心价值观</span>
+                                <div class="line"></div>
+                                <p>专业、专注、高效、创新</p>
+                            </li>
+                            <li class="more"><a href="">了解更多</a></li>
+                        </ul>
+                    </section>
+                    <section class="dla-develope">
+                        <h1>发展大事件</h1>
+                        <h3>企业在线教育新生态</h3>
+                        <p>企慕课堂采用业界最新的XAPI标准和独创的MOOC+SAAS模式的企业在线教育云服务平台。依靠高度专注的专业化基因与自主灵活的模块化设计，企慕课堂能够快速实现企业在线教育所需的强大的功能与多应用场景；同时,为进驻企慕课堂的企业用户，连接构建起一个开放式的、多商圈组成的、共享共赢的生态环境。</p>
+                        <p class="de-st"><span class="set">成立于：</span><span class="num">2001</span><span class="year">年</span><span class="de-dot"></span><span class="de-dot"></span><span class="de-dot"></span><a href="">了解更多</a></p>
+                    </section>
+                    <section class="dla-news">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <div class="img1"></div>
+                                    <div class="news-li">
+                                        <p class="h3">企业在线学习•行业盛会CEFE，通铭教育邀您来参加！</p>
+                                        <p class="h5">作者：本站 发布日期：2016-08-30 00:00:00</p>
+                                        <span>中国企业在线学习大会ChinaE-LearningForum，简称CEFE。是中国企业探讨和研究最新学习技术、学习模式与学习理念的年度盛会。主办方在线教育资讯网（www.onlin..</span>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <div class="img2"></div>
+                                    <div class="news-li">
+                                        <p class="h3">通铭教育新三板上市敲钟仪式隆重举行</p>
+                                        <p class="h5">作者：本站 发布日期：2015-12-17 00:00:00</p>
+                                        <span>2016年2月19日，北京通铭教育科技股份有限公司新三板挂牌敲钟仪式，在全国中小企业股份转让系统有限公司隆重举行。通铭教育董事长唐小奎、常务副总裁胡美忠、证券事务代表龚亚..</span>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </section>
+                    <section class="dla-search">
+                        <h1>寻人启事@竞网通铭</h1>
+                        <p class="search-people">我们寻找江湖中各种奇人异士，咱们一起占山为王吧！</p>
+                        <a href="">
+                            <h2>下午茶有木有,零食随便吃</h2>
+                            <p>古时候好汉的生活状态，无拘无束，就像那梁山一百单八将，</p>
+                        </a>
+                        <a href="">
+                            <h2>全天高端音乐沐浴的办公环境</h2>
+                            <p>要的就是这个feel</p>
+                        </a>
+                        <a href="">
+                            <h2>世界那么大</h2>
+                            <p>没事还可以带你去看看~</p>
+                        </a>
+                        <a href="">
+                            <h2>极具行业竞争力的待遇，优质的办公环境...</h2>
+                            <p>但是！招才招财，绝不招酒囊饭袋！</p>
+                        </a>
+                    </section>
+                    <section class="dla-info">
+                        <a href="">
+                            <span class="fa fa-map-marker"></span><span class="info-de">地址</span>：湖南长沙市岳麓区麓谷信息港A栋25楼
+                        </a>
+                        <a href="">
+                            <span class="fa fa-phone"></span><span class="info-de">联系电话</span>：0731-89504929
+                        </a>
+                        <a href="">
+                            <span class="fa fa-envelope"></span><span class="info-de">邮编</span>：410000
+                        </a>
+                        <a href="">
+                            <span class="fa fa-at"></span><span class="info-de">邮箱</span>：zhouxiangqi@parim.net
+                        </a>
+                    </section>
+                </div>
+            </div>
+        </div>
+
+    </header>
+</div>
+<!--结束-->
+<div ui-view="indexView"></div>
+<div ui-view="solutionView"></div>
+<div ui-view="platfromView"></div>
+<div ui-view="operatorView"></div>
+<div ui-view="successCaseView"></div>
+
+<div ui-view="aboutView"></div>
+<div ui-view="aboutHeaderView"></div>
+<div ui-view="aboutendView"></div>
+
+<div ui-view="developeHeaderView"></div>
+<div ui-view="aboutHeaderView1"></div>
+<div ui-view="developeView"></div>
+
+<div ui-view="aboutNewHeaderView"></div>
+<div ui-view="aboutHeaderView2"></div>
+<div ui-view="aboutNewView"></div>
+
+<div ui-view="joinView"></div>
+
+<div ui-view="contactusView"></div>
+
+<div ui-view="footerView" style="background: #fff;"></div>
+<div ui-view="footerView1" style="background: #fff;"></div>
+
+
+<!--公共模块-->
+<script src="components/jquery/dist/jquery.js"></script>
+<script src="components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="components/angular/angular.js"></script>
+<script src="components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="components/swiper/dist/js/swiper.jquery.js"></script>
+<script src="components/swiper/dist/js/swiper.animate1.0.2.min.js"></script>
+<!--自定义模块-->
+<script src="js/myapp.js"></script>
+<script src="js/config.js"></script>
+<script src="js/controller/index.ctr.js"></script>
+<script src="js/controller/footer.ctr.js"></script>
+<script src="js/controller/solution.ctr.js"></script>
+<script src="js/controller/header.ctr.js"></script>
+<script src="js/controller/solution.ctr.js"></script>
+<script src="js/controller/platform.ctr.js"></script>
+<script src="js/controller/operator.ctr.js"></script>
+<script src="js/controller/successCase.ctr.js"></script>
+<script src="js/controller/about.ctr.js"></script>
+<script src="js/controller/about.ctr.js"></script>
+
+<script>
+    //调用动画
+    window.scrollReveal = new scrollReveal({reset: true, move: '50px'});
+</script>
+</body>
+</html>

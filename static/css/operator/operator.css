@@ -1,0 +1,273 @@
+a:hover {
+  text-decoration: none;
+}
+/*��Ļ���ֿ�ʼ*/
+.op-topMain {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+/*����ͼ*/
+.op-topMain .op-topMain-img {
+  width: 100%;
+  height: 640px;
+  position: relative;
+}
+/*����*/
+.op-topMain .op-topMain-content {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  color: #fff;
+  width: 100%;
+  text-align: center;
+  z-index: 5;
+}
+.op-topMain .op-topMain-content h3 {
+  font-size: 60px;
+  line-height: 80px;
+  font-weight: normal;
+}
+.op-topMain .op-topMain-content h4 {
+  font-size: 28px;
+  font-weight: normal;
+  padding-top: 20px;
+  letter-spacing: 11px;
+}
+.op-topMain .op-topMain-content span.line {
+  width: 680px;
+  display: block;
+  height: 1px;
+  background: #fff;
+  margin: 16px auto;
+}
+.op-topMain .op-topMain-content p {
+  font-size: 22px;
+}
+/*��Ӫ������ֵ��ʽ����*/
+.op-value {
+  padding-top: 60px;
+  background: #fff;
+}
+.op-value h2 {
+  text-align: center;
+  font-size: 32px;
+  color: #000;
+  line-height: 30px;
+  padding-bottom: 10px;
+}
+.op-value p {
+  text-align: center;
+  font-size: 16px;
+  color: #000;
+}
+.op-value .op-value-content {
+  overflow: hidden;
+  position: relative;
+  padding-top: 48px;
+}
+.op-value .op-value-content .clearfix {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+      -ms-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+}
+.op-value .op-value-content .clearfix .item {
+  float: left;
+  width: 240px;
+  height: 360px;
+  display: block;
+  overflow: hidden;
+  position: relative;
+}
+.op-value .op-value-content .clearfix .item .op-value-mark {
+  width: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.op-value .op-value-content .clearfix .item .op-value-mark .op-value-bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  width: 240px;
+  height: 360px;
+  background: #000;
+  opacity: 0.6;
+}
+.op-value .op-value-content .clearfix .item .op-value-mark .op-value-con {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+  top: 130px;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  cursor: pointer;
+  -webkit-transition: .5s;
+          transition: .5s;
+}
+.op-value .op-value-content .clearfix .item .op-value-mark .op-value-con img {
+  min-width: 60px;
+  height: 76px;
+  display: block;
+  margin: 0 auto;
+  -webkit-transition: 0.3s ease 1s;
+          transition: 0.3s ease 1s;
+}
+.op-value .op-value-content .clearfix .item .op-value-mark .op-value-con h3 {
+  font-size: 18px;
+  font-weight: normal;
+  line-height: 28px;
+  padding-top: 30px;
+}
+.op-value .op-value-content .item .op-value-mark:hover .op-value-bg {
+  background-color: cornflowerblue;
+}
+.op-value .op-value-content .item .op-value-mark:hover .op-value-con {
+  -webkit-transform: translate(0, -50px);
+      -ms-transform: translate(0, -50px);
+          transform: translate(0, -50px);
+}
+/*��Ӫ���񲿷�*/
+.op-content {
+  padding-top: 68px;
+  padding-bottom: 80px;
+}
+.op-content .op-content-title {
+  height: 68px;
+  line-height: 68px;
+  text-align: center;
+  border-bottom: 1px solid #e5e5e5;
+  border-top: 1px solid #e5e5e5;
+  font-size: 32px;
+  color: #000;
+}
+.op-content .op-content-content {
+  padding-top: 36px;
+}
+.op-content .op-content-content .op-content-table {
+  border: 1px solid #e5e5e5;
+  border-top: 0 none;
+}
+.op-content .op-content-content dd {
+  border-top: 1px solid #e5e5e5;
+  padding: 0;
+}
+.op-content .op-content-content dd span {
+  float: left;
+  width: 319px;
+  border-right: 1px solid #E5E5E5;
+  height: 120px;
+  line-height: 110px;
+  display: block;
+  text-align: center;
+  font-size: 22px;
+  color: #000;
+}
+.op-content .op-content-content dd p {
+  width: 760px;
+  padding: 35px 82px 35px 35px;
+  line-height: 20px;
+  float: left;
+  font-size: 16px;
+  color: #000;
+}
+.p_ico {
+  background: url("../../img/images/p_ico.png") no-repeat;
+  width: 42px;
+  height: 40px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 24px;
+}
+.t1 .p_ico {
+  background-position: -120px -393px;
+}
+.t2 .p_ico {
+  background-position: -175px -393px;
+}
+.t3 .p_ico {
+  background-position: -224px -393px;
+  width: 48px;
+}
+.t4 .p_ico {
+  background-position: -285px -393px;
+  width: 50px;
+  height: 50px;
+}
+.t5 .p_ico {
+  background-position: -348px -393px;
+  width: 50px;
+  height: 32px;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+/*��Ӫ�������沿��*/
+.op-income .op-income-content {
+  margin-bottom: 60px;
+}
+.op-income .op-income-content .op-income-title {
+  width: 100%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 28px;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.op-income .op-income-content .op-income-title span {
+  width: 4px;
+  height: 26px;
+  display: inline-block;
+  margin-right: 20px;
+  vertical-align: middle;
+  background: #00b7ee;
+}
+.op-income .op-income-content .item2 {
+  width: 100%;
+  height: 158px;
+  background: #f1f1f1;
+  border-bottom: 1px solid #dbdbdb;
+}
+.op-income .op-income-content .item2 h3 {
+  width: 80px;
+  height: 100%;
+  padding: 0 26px;
+  text-align: center;
+  background: #000000;
+  float: left;
+  color: #fff;
+  line-height: 16px;
+  font-size: 16px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.op-income .op-income-content .item2 h3 span {
+  height: 28px;
+  line-height: 28px;
+  margin: 13px auto 5px;
+  display: block;
+  border: 1px solid #fff;
+  border-radius: 100%;
+}
+.op-income .op-income-content .item2 .txt {
+  width: 100%;
+  padding: 50px 0 0 115px;
+  line-height: 24px;
+  color: #000;
+}

@@ -1,0 +1,261 @@
+.h-about-bg {
+  background: #f5f5f5;
+}
+.h-news-banner {
+  width: 100%;
+  height: 234px;
+  position: relative;
+  top: 0;
+  background-image: url("../../img/images/news_banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h-news-banner p {
+  font-size: 32px;
+  color: #fff;
+  line-height: 40px;
+  position: absolute;
+  bottom: 50px;
+  -webkit-animation: move 1s;
+          animation: move 1s;
+}
+.h-h{
+  height: 300px;
+  padding: 0;
+}
+@-webkit-keyframes move {
+  0% {
+    left: -300px;
+  }
+  100% {
+    left: 380px;
+  }
+}
+@keyframes move {
+  0% {
+    left: -300px;
+  }
+  100% {
+    left: 380px;
+  }
+}
+.h-navbar {
+  border-bottom: 1px solid #e3e3e3;
+  overflow: hidden;
+}
+.h-navbar a {
+  display: inline-block;
+  width: 56px;
+  height: 60px;
+  color: #666;
+  text-align: center;
+  line-height: 60px;
+  margin: 0 25px;
+  -webkit-transition: .4s;
+          transition: .4s;
+}
+.h-navbar a:hover {
+  text-decoration: none;
+  color: #000;
+  /*border-bottom: 2px solid #000;*/
+}
+.h-navbar a:nth-child(2) {
+  width: 70px;
+}
+.h-navbar .h-active {
+  border-bottom: 2px solid #000;
+}
+.h-fa {
+  margin-top: 30px;
+}
+.h-fa .h1 {
+  margin-top: 0;
+}
+.h-fa .h-line {
+  width: 38px;
+  height: 2px;
+  display: block;
+  background: #a1a1a1;
+  margin: 22px 0;
+}
+.h-fa .h-time {
+  color: #666;
+}
+.h-fa .h-time .num {
+  font-size: 60px;
+  display: inline-block;
+  line-height: 60px;
+}
+.h-fa .h-time .year {
+  color: #fff;
+  background: #666;
+  font-weight: bold;
+  display: inline-block;
+  margin-bottom: 2px;
+  height: 20px;
+  line-height: 20px;
+}
+.h-fa .h3 {
+  margin-top: 0;
+  font-weight: bold;
+}
+.h-fa .h3 a {
+  color: red;
+  text-decoration: underline;
+}
+.h-fa .summary {
+  color: #666;
+}
+.h-fa .summary p {
+  margin: 0;
+  line-height: 1.8em;
+}
+.h-fa .summary p a {
+  color: red;
+  text-decoration: underline;
+}
+.h-fa .col-md-4 {
+  width: 380px;
+  height: 380px;
+  background-image: url("../../img/images/about_info1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h-val:hover {
+  box-shadow: 5px 5px 5px #ccc;
+}
+.h-val {
+  margin-top: 90px;
+  background: #fff;
+  padding: 0;
+}
+.h-val .h-about-row {
+  margin: auto 0;
+}
+.h-val .h-md-img:hover {
+  opacity: 0.8;
+}
+.h-val .swiper-wrapper {
+  width: 90%;
+  height: 304px;
+}
+.h-val .h-md-img {
+  width: 380px;
+  height: 360px;
+  background-image: url("../../img/images/about_info2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.h-val .col-md-8 .col-md-4:last-child {
+  border-right: none;
+}
+.h-val .col-md-8 .col-md-4 {
+  box-sizing: border-box;
+  padding: 50px 40px;
+  margin-top: 45px;
+  border-right: 1px solid #e3e3e3;
+  -webkit-transition: .4s;
+          transition: .4s;
+}
+.h-val .col-md-8 .col-md-4 .h3 {
+  color: #000;
+  font-size: 20px;
+  font-weight: normal;
+  -webkit-transition: .4s;
+          transition: .4s;
+}
+.h-val .col-md-8 .col-md-4 .line {
+  width: 36px;
+  height: 2px;
+  display: block;
+  background: #a1a1a1;
+  margin: 22px 0;
+  -webkit-transition: .4s;
+          transition: .4s;
+  -webkit-animation: long .4s;
+          animation: long .4s;
+}
+.h-val .col-md-8 .col-md-4 .h4 {
+  font-size: 14px;
+  padding-top: 32px;
+  color: #666;
+  line-height: 24px;
+  -webkit-transition: .4s;
+          transition: .4s;
+}
+@-webkit-keyframes long {
+  0% {
+    width: 50px;
+  }
+  100% {
+    width: 80px;
+  }
+}
+@keyframes long {
+  0% {
+    width: 50px;
+  }
+  100% {
+    width: 80px;
+  }
+}
+.h-val .col-md-8 .col-md-4 .h3:hover {
+  color: #1084d5;
+}
+.h-honor {
+  position: relative;
+  margin-top: 90px;
+  -webkit-transform: translatey(0);
+      -ms-transform: translatey(0);
+          transform: translatey(0);
+  opacity: 1;
+  -webkit-transition: -webkit-transform 1s ease-in-out 0.3s, opacity 1s ease-in-out 0.3s;
+          transition: transform 1s ease-in-out 0.3s, opacity 1s ease-in-out 0.3s;
+}
+.h-honor .swiper-slide {
+  background-color: #fff;
+}
+.h-honor .swiper-slide:hover {
+  border: 1px solid #0F66CD;
+}
+.h-honor .swiper-slide {
+  text-align: center;
+  box-sizing: border-box;
+  border: 1px solid #e5e5e5;
+}
+.h-honor .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+.h-honor .swiper-slide img:hover {
+  -webkit-transform: scale(1.06);
+      -ms-transform: scale(1.06);
+          transform: scale(1.06);
+  cursor: pointer;
+}
+.h-honor .h-pagination a {
+  display: block;
+  position: relative;
+}
+.h-honor .h-pagination a .swiper-pagination {
+  display: inline-block;
+  width: 30%!important;
+  position: absolute;
+  left: 140px;
+  top: 16px;
+  font-size: 20px;
+}
+.h-honor .h-pagination a .swiper-button-prev {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  left: 88px;
+  top: 38px;
+}
+.h-honor .h-pagination a .swiper-button-next {
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  right: 4px;
+  top: 38px;
+}

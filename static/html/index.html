@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html ng-app="myapp">
+<head lang="en" >
+    <meta charset="UTF-8">
+    <title>通铭教育</title>
+    <!-- 公共模块-->
+    <link rel="stylesheet" href="../css/reset.css"/>
+    <link rel="stylesheet" href="../components/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="../components/swiper/dist/css/swiper.css"/>
+    <link rel="stylesheet" href="../components/swiper/dist/css/animate.min.css"/>
+    <!-- 自定义模块-->
+    <link rel="stylesheet" href="../css/index/index.css"/>
+    <link rel="stylesheet" href="../css/footer/footer.css"/>
+</head>
+<body>
+
+<div ui-view="indexView"></div>
+<div ui-view="solutionView"></div>
+<div ui-view="platfromView"></div>
+<div ui-view="operatorView"></div>
+<div ui-view="successCaseView"></div>
+<div ui-view="aboutView"></div>
+<div ui-view="footerView"></div>
+<!--公共模块-->
+<script src="../components/jquery/dist/jquery.js"></script>
+<script src="../components/bootstrap/dist/js/bootstrap.js"></script>
+<script src="../components/angular/angular.js"></script>
+<script src="../components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="../components/swiper/dist/js/swiper.jquery.js"></script>
+<script src="../components/swiper/dist/js/swiper.animate1.0.2.min.js"></script>
+<!--自定义模块-->
+<script src="../js/myapp.js"></script>
+<script src="../js/config.js"></script>
+<script src="../js/controller/index.ctr.js"></script>
+<script src="../js/controller/footer.ctr.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,21 @@
+
+<div  ng-controller="aboutctr" style="background: #f5f5f5">
+
+    <div class="h-navbar container">
+        <a href="" class="h-active" title="关于通铭" ui-sref="about" >关于通铭</a>
+        <a href="" title="发展大事件" ui-sref="develope">发展大事件</a>
+        <a href="" title="新闻中心" ui-sref="aboutNew">新闻中心</a>
+        <a href="" title="加入我们" ui-sref="join">加入我们</a>
+        <a href="" title="联系我们" ui-sref="contactus">联系我们</a>
+    </div>
+
+    <script src="js/scrollReveal/scrollReveal.js"></script>
+    <script>
+        $('.h-navbar a').click(function () {
+            $('.h-navbar a').css({'borderBottom':'none'});
+            $(this).css({'borderBottom':'2px solid #000'});
+        });
+        window.scrollReveal = new scrollReveal({reset: true, move: '50px'});
+    </script>
+</div>
+
